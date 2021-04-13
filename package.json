@@ -15,7 +15,8 @@
     "scss": "^0.2.4",
     "tslib": "^2.1.0",
     "zone.js": "^0.11.3",
-    "awersome"
+     "dbf-reader": "^1.0.2",
+    "fs": "0.0.1-security"
   },
   "scripts": {
     "ng": "ng",
