@@ -24,7 +24,10 @@ export class AppComponent {
     console.log(record); // Name: John Smith
 });
           //console.log(datatable);
+          parser.parse();
         }
+
+        
       };
     }
   }
