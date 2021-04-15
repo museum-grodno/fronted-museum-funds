@@ -18,7 +18,7 @@ export class AppComponent {
         if (arrayBuffer) {
           let buffer: any = Buffer.from(arrayBuffer);
           //     let datatable: DataTable = Dbf.read(buffer);
-          let parser = new Parser(file);
+          let parser = new Parser('/home/andrzej/Desktop/akt.dbf');
 
           parser.on('record', (record) => {
     console.log(record); // Name: John Smith
