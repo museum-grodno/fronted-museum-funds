@@ -1,5 +1,6 @@
 import { Component, VERSION } from "@angular/core";
 import { Buffer } from "buffer";
+import { Parser } from "node-dbf";
 @Component({
   selector: "my-app",
   templateUrl: "./app.component.html",
@@ -16,8 +17,10 @@ export class AppComponent {
         var arrayBuffer: ArrayBuffer = reader.result as ArrayBuffer;
         if (arrayBuffer) {
           let buffer: any = Buffer.from(arrayBuffer);
-    //      let datatable: DataTable = Dbf.read(buffer);
-//console.log(datatable);
+          //     let datatable: DataTable = Dbf.read(buffer);
+          
+          console.log(Parser);
+          //console.log(datatable);
         }
       };
     }
